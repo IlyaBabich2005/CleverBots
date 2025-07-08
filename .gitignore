@@ -1,0 +1,14 @@
+#build files
+build/
+*.o
+*.obj
+*.exe
+*.out
+
+#IDE configuration
+.vscode/
+.idea/
+*.swp
+
+#logs
+*.log
