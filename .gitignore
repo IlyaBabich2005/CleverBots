@@ -12,3 +12,7 @@ build/
 
 #logs
 *.log
+
+#Cmake
+CMakeUserPresets.json
+

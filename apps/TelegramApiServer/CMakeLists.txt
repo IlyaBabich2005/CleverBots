@@ -3,7 +3,7 @@ find_package(Boost 1.88 REQUIRED COMPONENTS system CONFIG)
 
 # Building Server which talk with Telegram Api 
 add_executable(TelegramApiServer  
-	TelegramApiServer/src/main.cpp 
+	src/main.cpp 
 )  
 
 set_target_properties(TelegramApiServer 
