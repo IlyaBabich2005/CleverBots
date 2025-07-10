@@ -18,5 +18,5 @@ target_include_directories(TelegramApiServer
 
 target_link_libraries(TelegramApiServer
 	PRIVATE
-		${Boost_LIBRARIES} 
+		Boost::system
 )
